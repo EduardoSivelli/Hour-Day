@@ -9,15 +9,15 @@ function load () {
   
   if (hour >= 5 && hour < 12){
     //BOM DIA 
-    image.src = 'fotomanha.png'
+    image.src = './public/fotomanha.png'
     document.body.style.background = '#F9BF92'
   } else if (hour >= 12 && hour < 18) {
     //BOA TARDE
-    image.src = 'fototarde.png'
+    image.src = './public/fototarde.png'
     document.body.style.background = '#3981A3'
   } else {
     //BOA NOITE
-    image.src = 'fotonoite.png'
+    image.src = './public/fotonoite.png'
     document.body.style.background = '#283C43'
   }
 }
