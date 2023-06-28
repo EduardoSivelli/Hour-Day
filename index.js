@@ -21,4 +21,5 @@ function load () {
     document.body.style.background = '#283C43'
   }
 }
+setInterval(load, 1000);
 
