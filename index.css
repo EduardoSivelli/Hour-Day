@@ -27,3 +27,20 @@ footer {
   text-align: center;
   font-style: italic;
 }
+
+@media screen and (max-width: 400px) {
+  .title{
+    font: normal 17pt Bahnschrift;
+    margin-top: 60px;
+  }
+  .board {
+    background: white;
+    width: 200px; 
+  }
+  #image {
+    width: 100px;
+  }
+  footer {
+    font: italic 13pt Arial;
+  }
+}
