@@ -3,7 +3,9 @@ function load () {
   var image = window.document.getElementById('image')
   var date = new Date()
   var hour = date.getHours()
-  msg.innerHTML = `Agora são ${hour} horas`
+  var minute = date.getMinutes()
+  var seconds = date.getSeconds()
+  msg.innerHTML = `Agora são ${hour}:${minute}:${seconds} `
   
   if (hour >= 5 && hour < 12){
     //BOM DIA 
