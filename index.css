@@ -28,7 +28,7 @@ footer {
   font-style: italic;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .title{
     font: normal 17pt Bahnschrift;
     margin-top: 60px;
